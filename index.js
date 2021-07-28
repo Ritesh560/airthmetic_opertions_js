@@ -1,0 +1,20 @@
+var x, y, z;
+x = parseInt(prompt("Enter x value: "));
+y =parseInt(prompt("Enter y value: "));
+document.write("the different aithmetic operations are: <br>")
+document.write ("x = ");
+document.write (x);
+document.write (", y = ");
+document.write (y);
+document.write('<br>x + y is ');
+z = x + y;
+document.write (z);
+document.write ("<br> x – y is ");
+z = x-y;
+document.write (z);
+document.write ("<br> x * y is ");
+z = x * y;
+document.write (z);
+document.write ("<br> x / y is ");
+z = x / y;
+document.write (z);
